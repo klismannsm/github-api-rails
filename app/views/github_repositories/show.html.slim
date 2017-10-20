@@ -1,0 +1,17 @@
+.m-github-repository__body
+  .row.wrapper.border-bottom.white-bg.page-heading
+    .col-lg-10
+      h2 = I18n.t('titles.github_repositories')
+
+  .row.wrapper.wrapper-content.animated.fadeInRight
+    .col-xs-12
+      .ibox.float-e-margins
+        .ibox-title
+          .ibox-tools
+              a.btn.btn-primary.margin-right href=(github_repositories_path) = I18n.t('buttons.github_repository.back')
+        .ibox-content style=("display: block;")
+          dl.dl-horizontal
+            - @github_repository.main_attributes.each do |name, value|
+              .m-github_repository__attribute-container
+                dt.m-github_repository__attribute-label = @github_repository.label_text(name)
+                dd.m-github_repository__attribute-value = value
