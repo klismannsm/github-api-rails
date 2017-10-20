@@ -10,4 +10,11 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require_tree .
+//= require jquery
+//= require bootstrap
+//= require noty
+//= require DataTables
+//= require DataTables/dataTables.bootstrap
+//= require init
+//= require_tree ./components
+//= require componentLoader
