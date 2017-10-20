@@ -3,6 +3,8 @@ class GithubRepository < ActiveRecord::Base
 
   accepts_nested_attributes_for :github_repository_owner
 
+  validates_presence_of :github_id, :name
+
   class << self
     def find_by_github_id(github_id)
       where(github_id: github_id).first

@@ -1,14 +1,16 @@
 module GithubApi
   class TrendingRepositories
-    def initialize(languages)
+    def initialize(languages, search = Search, importer = Importer)
       @languages = languages
+      @search = search
+      @importer = importer
     end
 
     def get
       [].tap do |result|
         @languages.each do |language|
-          repositories = Search.new(options(language)).by_language
-          result << { language: language, records: Importer.new(repositories).import }
+          repositories = @search.new(options(language)).by_language
+          result << { language: language, records: @importer.new(repositories).import }
         end
       end
     end
