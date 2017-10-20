@@ -12,6 +12,8 @@ gem 'rails-i18n'
 gem 'slim-rails'
 gem 'draper'
 gem 'simple_form'
+gem 'rest-client'
+gem 'datatables_records_mapper'
 
 group :production do
   gem 'newrelic_rpm'
@@ -45,4 +47,6 @@ end
 source 'https://rails-assets.org' do
   gem 'rails-assets-bootstrap', '3.3.7'
   gem 'rails-assets-noty'
+  gem 'rails-assets-jquery'
+  gem 'rails-assets-DataTables'
 end
