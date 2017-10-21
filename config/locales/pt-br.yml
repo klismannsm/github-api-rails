@@ -1,0 +1,95 @@
+pt-BR:
+  titles:
+    github_test: Teste de API do GitHub
+    github_repositories: Repositórios do GitHub
+  buttons:
+    github_repository:
+      import: Importar repositórios
+      refresh: Atualizar tabela
+      back: Voltar
+      destroy: Limpar base
+  table_titles:
+    github_repository:
+      id: Código
+      github_id: Id no github
+      name: Nome
+      language: Linguagem
+      stargazers_count: Número de estrelas
+    default:
+      actions: Ações
+  models:
+    labels:
+      github_repositories:
+        id: Código
+        github_id: Código no github
+        name: Nome
+        full_name: Nome completo
+        private: Privado?
+        html_url: URL do HTML
+        description: Descrição
+        fork: Fork?
+        url: URL
+        forks_url: URL dos forks
+        keys_url: URL das chaves
+        collaborators_url: URL dos colaboradores
+        teams_url: URL dos times
+        hooks_url: URL dos ganchos
+        issue_events_url: URL dos problemas abertos
+        events_url: URL dos eventos
+        assignees_url: URL dos administradores
+        branches_url: URL dos branches
+        tags_url: URL das tags
+        blobs_url: URL dos blobs
+        git_tags_url: URL das tags
+        git_refs_url: URL das referências
+        trees_url: URL das trees
+        statuses_url: URL de status
+        languages_url: URL de linguagens
+        stargazers_url: URL dos stargazers
+        contributors_url: URL dos colaboradores
+        subscribers_url: URL dos inscritos
+        subscription_url: URL de inscrição
+        commits_url: URL dos commits
+        git_commits_url: URL dos commits do git
+        comments_url: URL de comentários
+        issue_comment_url: URL dos comentários dos problemas
+        contents_url: URl do conteúdo
+        compare_url: URL de comparação
+        merges_url: URl dos merges
+        archive_url: URL do arquivo
+        downloads_url: URL de download
+        issues_url: URL dos problemas
+        pulls_url: URL dos pulls
+        milestones_url: URl das milestones
+        notifications_url: URL de notificações
+        labels_url: URL das labels
+        releases_url: URL dos releases
+        deployments_url: URL dos deploys
+        github_created_at: Data de criação no github
+        github_updated_at: Data de atualização no github
+        pushed_at: Pushed
+        git_url: URL GIT
+        ssh_url: URL SSH
+        clone_url: URL clone
+        svn_url: URL SVN
+        homepage: Página Web
+        size: Tamanho
+        stargazers_count: Número de stars
+        watchers_count: Número de watchers
+        language: Linguagem
+        has_issues: Tem problemas?
+        has_projects: Tem projetos?
+        has_downloads: Tem downloads?
+        has_wiki: Tem wiki?
+        has_pages: Tem páginas?
+        forks_count: Número de forks
+        mirror_url: URL espelho
+        archived: Arquivado?
+        open_issues_count: Número de problemas abertos
+        forks: Forks
+        open_issues: Problemas abertos
+        watchers: Watchers
+        default_branch: Branch padrão?
+        score: Score
+        created_at: Criado em
+        updated_at: Atualizado em
